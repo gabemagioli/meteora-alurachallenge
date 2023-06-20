@@ -6,19 +6,25 @@ import Banner from './banner/BannerLoja';
 function Header () {
     return(
         <>
-        <header className="flex justify-between p-[17px] bg-black w-w1440 h-custom p-[13px] pl-[23px] flex flex-row">
-            <div className=" pl-[23px] flex flex-row">
-                <img src={LogoLoja} alt="Logo-meteora" className="h-8 w-logo"/>
-                <p className="text-white font-normal text-base pt-[3px] ml-[46px]">Home</p>
-                <p className="text-white font-normal text-base pt-[3px] ml-[46px]">Nossas Lojas</p>
-                <p className="text-white font-normal text-base pt-[3px] ml-[46px]">Novidades</p>
-                <p className="text-white font-normal text-base pt-[3px] ml-[46px]">Promoções</p>
+        <header className="lg:flex lg:justify-between lg:p-[17px] lg:bg-black lg:w-w1440 lg:h-custom p-[13px] lg:pl-[23px] lg:flex-row sm:flex sm:flex-col sm:bg-black sm:h-custom sm:justify-between sm:w-[640px]">
+            <div className=" lg:pl-[23px] lg:flex lg:flex-row sm:flex sm:flex-col sm:pl[16px]">
+                <img src={LogoLoja} alt="Logo-meteora" className="lg:h-8 lg:w-logo lg:ml-[23px] sm:h-[30px] sm:w-[125px] sm:ml-[125px] sm:mt-[-10px] lg:mt-[0px]"/>
+                <div className="sm:flex sm:flex-row lg:mt-[-10px] sm:mt-[-10px]">
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] sm:ml-[30px] cursor-pointer">Home</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Nossas Lojas</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Novidades</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Promoções</p>
+                </div>
             </div>
-            <div className="mr-[23px] mt-[-5px]">
-                <input type="text" placeholder='Digite o produto' className="h-[38px] w-[170px] mt-[-7px] pl-[15px]"/>
-                <button className="ml-[23px] border-[1px] border-white text-white p-[5px] w-[85px]">Buscar</button>
+            <div className="lg:mr-[23px] lg:mt-[0px] sm:hidden lg:flex">
+                <input type="text" placeholder='Digite o produto' className="lg:h-[38px] lg:w-[170px] lg:mt-[-7px] lg:pl-[15px]"/>
+                <button className="lg:ml-[23px] lg:border-[1px] lg:border-white lg:text-white lg:p-[5px] lg:w-[85px] lg:h-[38px] lg:mt-[-7px]">Buscar</button>
             </div>
         </header>
+            <div className="sm:mr-[23px] sm:mt-[0px] lg:hidden sm:flex sm:p-[20px]">
+                <input type="text" placeholder='Digite o produto' className="sm:h-[38px] sm:w-[225.6px] sm:mt-[0px] sm:pl-[15px] sm:ml-[20px] sm:border-solid sm:border-black sm:border-[1px]"/>
+                <button className="sm:ml-[7px] sm:border-[1px] sm:border-black sm:text-black sm:p-[5px] sm:w-[85px] sm:h-[38px] sm:mt-[0px]">Search</button>
+            </div>
         <Banner/>
         </>
     );
