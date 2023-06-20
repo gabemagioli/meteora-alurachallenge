@@ -23,7 +23,7 @@ function Header () {
         </header>
             <div className="sm:mr-[23px] sm:mt-[0px] lg:hidden sm:flex sm:p-[20px]">
                 <input type="text" placeholder='Digite o produto' className="sm:h-[38px] sm:w-[225.6px] sm:mt-[0px] sm:pl-[15px] sm:ml-[40px] sm:border-solid sm:border-black sm:border-[1px]"/>
-                <button className="sm:ml-[7px] sm:border-[1px] sm:border-black sm:text-black sm:p-[5px] sm:w-[85px] sm:h-[38px] sm:mt-[0px]">Search</button>
+                <button className="sm:ml-[7px] sm:border-[1px] sm:border-black sm:text-black sm:p-[5px] sm:w-[85px] sm:h-[38px] sm:mt-[0px] sm:hover:text-white sm:hover:bg-black sm:hover:border-white">Search</button>
             </div>
         <Banner/>
         </>
