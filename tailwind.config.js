@@ -13,6 +13,9 @@ module.exports = {
         },
         screens: {
           sm: '375px', // Alteração feita aqui
+          md: '768px',
+          lg: '1440px',
+          xl: '1280px',
         },
       },
     plugins: [],
