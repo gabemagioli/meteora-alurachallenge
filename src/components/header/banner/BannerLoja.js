@@ -11,7 +11,7 @@ const Banner = () => {
     return(
         <div>
             <img src={banner1} className="lg:h-[415px] sm:hidden md:flex"/>
-            <img src={celular} className="sm:h-[415px] sm:w-[400px] md:hidden"/>
+            <img src={celular} className="sm:h-[415px] sm:w-[480px] md:hidden"/>
 
         </div>
     );
