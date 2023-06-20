@@ -4,7 +4,7 @@ import pix from './Unionpix.png';
 
 function Footer () {
     return(
-        <footer className="bg-black lg:w-[1440px] lg:h-[238px] sm:w-[374px] sm:w-[455px] lg:pt-[40px] sm:pt-[32px] flex flex-col mt-[60px]">
+        <footer className="bg-black lg:h-[238px] sm:w-[374px]  lg:pt-[40px] sm:pt-[32px] flex flex-col mt-[60px]">
             <h2 className="lg:text-[32px] text-white lg:leading-[38.73px] font-[500] sm:text-[24px] ">Conheça todas as nossas facilidades</h2>
             <section className="md:flex md:flex-row lg:mt-[25px] sm:mt-[32px]">
                 <div className="flex flex-row sm:mb-[32px]">

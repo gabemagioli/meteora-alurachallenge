@@ -30,13 +30,13 @@ const PorCategoria = () => {
                         },];
 
   return (
-    <div className=" sm:w-[640px] lg:w-[1440px]">
+    <div>
         <ul className="sm:content-center">
-            <h2 className="md:mt-[60px] md:text-center md:text-3xl md:font-medium md:mb-[25px] sm:ml-[-200px] lg:ml-[50px] sm:mt-[24px] sm:text-[28px] sm:font-[500] sm:leading-[33.89px]">Busque por categoria:</h2>
-            <div className="flex flex-row md:ml-[175px] sm:mt-[60px] sm:ml-[23px] flex-wrap">
+            <h2 className="md:mt-[60px] md:text-center md:text-3xl md:font-medium md:mb-[25px]  lg:ml-[50px] sm:mt-[24px] sm:text-[28px] sm:font-[500] sm:leading-[33.89px]">Busque por categoria:</h2>
+            <div className="flex flex-row md:ml-[175px] sm:mt-[60px] sm:ml-[16px] flex-wrap">
             {arrayAbas.map((item) => (
                 <li key={item.cat} className="border-black m-[15px] cursor-pointer">
-                    <img src={item.img} alt="categoria imagem" className="md:w-[160px] md:h-[157px] sm:w-[180px] sm:h-[177px]"/>
+                    <img src={item.img} alt="categoria imagem" className="md:w-[160px] md:h-[157px] sm:w-[146px] sm:h-[157px]"/>
                     <h6 className="text-base text-white bg-black p-[3px]">{item.cat}</h6>
                 </li>
             ))}
