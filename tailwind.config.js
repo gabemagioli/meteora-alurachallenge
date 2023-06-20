@@ -11,6 +11,9 @@ module.exports = {
             'custom': '58px', // Nomeie sua altura personalizada e defina um valor
           },
         },
+        screens: {
+          sm: '375px', // Alteração feita aqui
+        },
       },
     plugins: [],
   }
