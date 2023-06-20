@@ -10,10 +10,10 @@ function Header () {
             <div className=" lg:pl-[23px] lg:flex lg:flex-row sm:flex sm:flex-col sm:pl[16px]">
                 <img src={LogoLoja} alt="Logo-meteora" className="lg:h-8 lg:w-logo lg:ml-[23px] sm:h-[30px] sm:w-[125px] sm:ml-[125px] sm:mt-[-10px] lg:mt-[0px]"/>
                 <div className="sm:flex sm:flex-row lg:mt-[-10px] sm:mt-[-10px]">
-                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] sm:ml-[30px] cursor-pointer">Home</p>
-                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Nossas Lojas</p>
-                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Novidades</p>
-                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer">Promoções</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] sm:ml-[30px] cursor-pointer hover:text-[#DAFF01]">Home</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer hover:text-[#DAFF01]">Nossas Lojas</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer hover:text-[#DAFF01]">Novidades</p>
+                    <p className="lg:text-white lg:font-normal lg:text-base lg:pt-[3px] lg:ml-[46px] sm:text-white sm:text-sm sm:m-[10px] cursor-pointer hover:text-[#DAFF01]">Promoções</p>
                 </div>
             </div>
             <div className="lg:mr-[23px] lg:mt-[0px] sm:hidden lg:flex">

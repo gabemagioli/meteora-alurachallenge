@@ -30,10 +30,10 @@ const PorCategoria = () => {
                         },];
 
   return (
-    <div>
-        <ul className="content-center">
-            <h2 className="mt-[60px] text-center text-3xl font-medium mb-[25px]">Busque por categoria:</h2>
-            <div className="flex flex-row ml-[165px] flex-wrap">
+    <div className=" sm:w-[640px] lg:w-[1440px]">
+        <ul className="sm:content-center ">
+            <h2 className="md:mt-[60px] md:text-center md:text-3xl md:font-medium md:mb-[25px] sm:ml-[-250px] lg:ml-[0px] sm:mt-[24px] sm:text-[28px] sm:font-[500] sm:leading-[33.89px]">Busque por categoria:</h2>
+            <div className="flex flex-row md:ml-[175px] sm:mt-[20px] flex-wrap">
             {arrayAbas.map((item) => (
                 <li key={item.cat} className="border-black m-[15px] cursor-pointer">
                     <img src={item.img} alt="categoria imagem" className="w-[160px] h-[157px]"/>
