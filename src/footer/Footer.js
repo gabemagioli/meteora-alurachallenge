@@ -41,7 +41,7 @@ function Footer () {
         <label htmlFor="cadastro"><h5 className="md:font-[500] md:text-[20px] md:leading-[24.2px] md:justify-center">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <strong>Cadastre-se!</strong></h5>
         </label>
         <div className="flex flex-row justify-center">
-            <input type="text"  id="cadastro" placeholder="Digite seu email" className="p-[10px] border-black border-r-0 border-solid border-[1px] md:mt-[24px] md:h-[38px] md:w-[500px] md:mb-[17px] sm:w-[234px]"/>
+            <input type="text"  id="cadastro" placeholder="Digite seu email" className="p-[10px] border-black border-r-0 border-solid border-[1px] md:mt-[24px] md:h-[38px] sm:h-[20px] md:w-[500px] md:mb-[17px] sm:w-[234px]"/>
             <span className="text-white p-[8px] bg-[#9353FF] mt-[24px] h-[38px] md:w-[84px]">Enviar</span>
         </div>
         </form>
