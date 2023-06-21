@@ -1,8 +1,17 @@
 import sustentabilidade from './Subtractsustentabilidade.png';
 import troca from './Vectortroca.png';
 import pix from './Unionpix.png';
+import  {useState}  from 'react';
 
 function Footer () {
+
+    const [email, setEmail] = useState('');
+
+    const recebeEmail = (e) => {
+        setEmail(e.target.value); 
+    }
+    
+
     return(
         <>
         <footer className="bg-black lg:w-[1440px] lg:h-[238px] sm:w-[374px] sm:w-[455px] lg:pt-[40px] sm:pt-[32px] flex flex-col mt-[60px]">
@@ -37,12 +46,19 @@ function Footer () {
                 </div>
             </section>
         </footer>
+
         <form className="border-black border-solid border-[1px] p-6 md:mt-[60px] md:w-[900px] sm:w-[350px] md:ml-[260.5px] sm:ml-[30px] sm:mt-[60px] mb-[60px]">
         <label htmlFor="cadastro"><h5 className="md:font-[500] md:text-[20px] md:leading-[24.2px] md:justify-center">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <strong>Cadastre-se!</strong></h5>
         </label>
         <div className="flex flex-row justify-center">
-            <input type="text"  id="cadastro" placeholder="Digite seu email" className="p-[10px] border-black border-r-0 border-solid border-[1px] mt-[24px] md:h-[38px] sm:h-[38px] md:w-[500px] md:mb-[17px] sm:w-[234px]"/>
-            <span className="text-white p-[8px] bg-[#9353FF] mt-[24px] h-[38px] md:w-[84px]">Enviar</span>
+            <input type="text"  id="cadastro" placeholder="Digite seu email" className="p-[10px] border-black border-r-0 border-solid border-[1px] mt-[24px] md:h-[38px] sm:h-[38px] md:w-[500px] md:mb-[17px] sm:w-[234px]" value={email} onChange={(e) => {e.preventDefault()
+            recebeEmail(e)
+            } }/>
+            <span onClick={() => {
+                console.log(email);
+                setEmail('');
+                alert("Cadastro realizado");
+            }} className="cursor-pointer text-white p-[8px] bg-[#9353FF] mt-[24px] h-[38px] md:w-[84px]">Enviar</span>
         </div>
         </form>
         </>
