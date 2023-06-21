@@ -63,7 +63,7 @@ function Produtos () {
                     <h2 className="lg:mt-[60px] lg:ml-[0px] lg:text-center lg:text-3xl lg:font-medium lg:mb-[25px]  sm:font-[500] sm:text-[28px] sm:mt-[40px] sm:ml-[0px] sm:w-[360px]">Produtos que estao bombando!</h2>
                     <div className="flex flex-row flex-wrap pl-[165px] pr-[165px] sm:ml-[-125px] sm:mt-[40px] md:ml-[0px] md:mt-[0px]">
                         {arrayProdutos.map((item) => (
-                            <li key={item.id} className="flex flex-col justify-evenly w-[350px] h-[615px] m-[15px] sm:ml-[-30px] md:ml-[15px] border-grey border-[1px] justify-start">
+                            <li key={item.id} className="flex flex-col justify-evenly w-[350px] h-[615px] m-[15px] sm:ml-[-15px] md:ml-[15px] border-grey border-[1px] justify-start">
                                 <img src={item.img} className="w-[350px] h-[422px]  mt-[-15px]"/>
                                 <p className="mr-[215px] w-[145px] text-base leading-[23px] font-bold ml-[16px]">{item.titulo}</p>
                                 <p className=" h-[40px] w-[315px] text-[13px] leading-[20px] font-[400]">{item.desc}</p>
