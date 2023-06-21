@@ -37,7 +37,7 @@ function Footer () {
                 </div>
             </section>
         </footer>
-        <form className="border-black border-solid border-[1px] p-6 md:mt-[60px] md:w-[900px] sm:w-[800px] md:ml-[260.5px] sm:ml-[50px] sm:mt-[60px] mb-[60px]">
+        <form className="border-black border-solid border-[1px] p-6 md:mt-[60px] md:w-[900px] sm:w-[350px] md:ml-[260.5px] sm:ml-[50px] sm:mt-[60px] mb-[60px]">
         <label htmlFor="cadastro"><h5 className="md:font-[500] md:text-[20px] md:leading-[24.2px] md:justify-center">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <strong>Cadastre-se!</strong></h5>
         </label>
         <div className="flex flex-row justify-center">
